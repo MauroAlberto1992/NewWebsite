@@ -1,0 +1,122 @@
+.avatarImg {
+    border: 3px solid;
+    border-radius: 50%;
+    height: 150px;
+    margin-top: 6em;
+
+}
+
+.bannerTextHr {
+    border-top: 5px dotted  #bcbcbc;
+    margin: auto;
+    width: 50%;
+}
+
+.bannerTextHone{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.bannerTextP{
+    color: white;
+    flex: 1;
+    font-size: 15px;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.bannerText {
+    border-radius: 10px;
+    margin-top: 3em;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.landingGrid {
+    background: #323334;
+    border-top: 5px solid #ffe66d;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.mediumLogo {
+    color: #ffe66d;
+    height: 45px;
+    margin-top: 14px;
+    width: 45px;
+
+}
+
+.alfr {
+    color: #ffe66d;
+    height: 175px;
+    width: 345px;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5em;
+}
+
+@media (min-width: 400px){
+    .avatarImg {
+        border: 3px solid;
+        border-radius: 50%;
+        flex: 1;
+        height: 200px;
+        margin-top: 6em;
+        text-align: center;
+
+    }
+    .bannerTextHone{
+        color: white;
+        flex: 1;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .bannerTextP{
+        color: white;
+        flex: 1;
+        font-size: 17px;
+        padding: 1em;
+    }
+    .item{
+        color: white;
+        font-size: 20px;
+        font-family: "Anton";
+    }
+}
+@media (min-width: 800px){
+    .avatarImg {
+        border-radius: 50%;
+        border: 3px solid #FFF;
+        flex: 1;
+        height: 250px;
+        margin-top: 6em;
+
+    }
+    .bannerTextHone{
+        color: white;
+        flex: 1;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .bannerTextP{
+        color: white;
+        flex: 1;
+        font-size: 20px;
+        padding: 1em;
+    }
+    .item{
+        color: white;
+        font-size: 33px;
+        font-family: "Anton";
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#323334;
+}
+
+
+
+
+.container {
+    background-color: #323334;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    font-weight: bold;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 40px;
+    width: 100%;
+}
+
+.header-color {
+    background: #D31027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EA384D, #D31027); /* Chrome 10-25, Safari 5.1-6 */
+}
+
+.header {
+    background: #323334;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cell {
+    background: #323334;
+    color: #ffe66d;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.hide {
+    display: none;
+
+}
+
+.menu {
+    background-color: #323334;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: relative;
+}
+
+.menu__right {
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.menu__list {
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__list-item {
+    display: flex;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.menu__list-item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    align-items: center;
+    color: #FFF;
+    display: flex;
+    font-size: 16px;
+    height: 100%;
+    padding: 0 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__link {
+    align-items: center;
+    color: #FFF;
+    display: flex;
+    font-size: 16px;
+    height: 100%;
+    padding: 0 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__link:hover {
+    color: #ffa69e;
+}
+
+.menu__link--active {
+    border-top: 4px solid #ffa69e;
+    color: #ffa69e;
+    font-weight: 700;
+}
+
+.title {
+    color: white;
+    font-family: 'Anton';
+    font-size: 50px;
+    margin-bottom: 40px;
+}
